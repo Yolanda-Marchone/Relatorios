@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para desktop */
+.table-desktop {
+    display: table;
+    width: 100%;
+}
+.table-row {
+    display: table-row;
+}
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+/* Estilos para mobile */
+.table-mobile {
+    display: none;
+}
+.table-mobile-header {
+    display: block;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .table-desktop {
+        display: none;
+    }
+    .table-mobile {
+        display: block;
+        width: 100%;
+    }
+    .table-cell {
+        display: block;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+}

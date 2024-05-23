@@ -32,6 +32,15 @@ class PlataformaController extends Controller
 
 }
 
+public function ver_mes()
+{
+
+    
+
+    return view('layouts/app', []);
+
+}
+
 
 
 

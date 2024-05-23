@@ -14,7 +14,7 @@
 
                 <div class="row g-3 mb-4 align-items-center justify-content-between">
                         <div class="col-auto">
-                            <h1 class="app-page-title mb-0">Lista das atividades da plataforma</h1>
+                            <h1 class="app-page-title mb-0">Lista dos problemas relatados na plataforma</h1>
                         </div>
                         <form id="pdfForm" action="/pdf" method="GET">
                 <div class="col-auto">

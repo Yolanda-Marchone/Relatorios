@@ -16,7 +16,7 @@
 
      <div class="app-content pt-3 p-md-3 p-lg-4">
                 <div class="container-xl">
-                    <h1 class="app-page-title">Introduza a atividade</h1>
+                    <h1 class="app-page-title">Introduza os problemas relatados das plataformas</h1>
                     <hr class="mb-4">
                     <div class="row g-4 settings-section">
                <div class="col-12 col-md-12"
